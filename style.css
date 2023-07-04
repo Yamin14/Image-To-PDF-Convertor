@@ -1,0 +1,62 @@
+
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+footer {
+	position: absolute;
+	width: 90%;
+	bottom: 1rem;
+	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+header {
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin:1rem;
+}
+
+form {
+	margin: 1rem;
+	text-align: center;
+	padding: 1rem;
+}
+
+section {
+	border: 1px solid black;
+	overflow-y: scroll;
+	height: 360px;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	border-radius: 5px;
+	padding-left: 2%;
+}
+
+section img {
+	width: 150px;
+	height: 30%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+div {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	section img {
+		width: 33%;
+	}
+
+	section {
+		height: 280px;
+	}
+}
+
